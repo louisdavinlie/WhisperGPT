@@ -52,4 +52,4 @@ for i in range(segments):
 
 df = pd.DataFrame(data=segmented_transcripts)
 
-df.to_csv("cs50-1.csv", index=False)
+df.to_csv("content.csv", index=False)
